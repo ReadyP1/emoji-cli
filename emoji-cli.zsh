@@ -11,7 +11,7 @@
 
 EMOJI_CLI_DICT="${0:A:h}/dict/emoji.json"
 : "${EMOJI_CLI_FILTER:="fzf-tmux -d 15%:fzf:peco:percol"}"
-: "${EMOJI_CLI_KEYBIND:="^s"}"
+: "${EMOJI_CLI_KEYBIND:="^u"}"
 
 # helper functions
 is_zsh()  { [ -n "$ZSH_VERSION" ];  }
